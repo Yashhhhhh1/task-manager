@@ -1,0 +1,22 @@
+.active{
+    border-left: 2px solid green;
+}
+
+#taskContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px black;
+    margin: 10px auto;
+    padding: 5px 20px;
+    width: 75%;
+    border-radius: 2px;
+}
+
+#taskDetails{
+    width: 270px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
